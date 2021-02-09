@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    margin: 0;
 }
 .inicio{
     background-color: hotpink;
@@ -22,7 +23,8 @@ body{
     font-family: sans-serif;
     font-size: 40px;
     font-weight: bold;
-    text-decoration: none;  
+    text-decoration: none; 
+    margin-left: 20px; 
 }
 .logo span a{
     text-decoration: none;
@@ -53,9 +55,22 @@ body{
     
 }
 .hero{
+    
     width: 100%;
     height: 500px;
-    background-color: greenyellow;
+    background-color: blanchedalmond;
+}
+.hero .carrusel{
+    align-content: center;
+    width: 70%;
+    height: 450px;
+    margin: auto;
+    padding-top: 20px;
+    
+}
+.hero .carrusel img{
+    width: 100%;
+    height: 100%;
 }
 #experience{
     width: 100%;
