@@ -1,0 +1,19 @@
+
+.cabecera{
+    width: 100%;
+    height: 200px;
+    background-color: salmon;
+    padding: 0px;
+   
+}
+.navbar{
+    margin-top: 0px;
+    width: 100%;
+    height: 45px;
+    background-color: red;
+}
+.navbar .opciones{
+    list-style-type: none;
+    display: flex;
+
+}
