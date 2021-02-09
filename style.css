@@ -1,19 +1,36 @@
-
-.cabecera{
-    width: 100%;
-    height: 200px;
-    background-color: salmon;
-    padding: 0px;
-   
+body{
+    background-color: black;
 }
+
 .navbar{
-    margin-top: 0px;
+    padding: 0px;
     width: 100%;
     height: 45px;
     background-color: red;
+    position: fixed;
+   
 }
 .navbar .opciones{
     list-style-type: none;
     display: flex;
-
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.navbar .opciones li{
+    margin: auto; 
+	text-align: center;
+	list-style-type: none;	
+    font-size: 16px;
+    color: white;
+}
+.navbar .opciones li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.navbar .opciones li a:hover{
+    
+    text-decoration: underline;
+    
 }
