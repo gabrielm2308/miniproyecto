@@ -8,26 +8,68 @@
     <title>prepa html</title>
 </head>
 <body>
-    <div class="inicio">
+    <div id="inicio">
         <div class="logo">
-            <span><a href=".inicio">GM</a></span>
+            <span><a href="#hero">GM</a></span>
         </div>
         <div class="navbar">
             <ul class="opciones">
-                <li><a href="">About me</a></li>
+                <li><a href="#about">About me</a></li>
                 <li><a href="">Contact Me</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="">Skills</a></li>
             </ul>
         </div>
-    </div>    
-    <div class="hero">
+    </div>   
+    <div id="hero">
         <div class="carrusel">
             <img name= "slide" width="100%" height="500px" alt="slides">
         </div>
     </div>
+    <div class="portfolio">
+        <span>EXPERIENCIA</span>
+    </div>
     <div id="experience">
-
+        <div class="contenedores1">
+            <div class="titles"><h2>Cines Unidos</h2></div>
+            <div class="herramienta"><span>Html y CSS</span></div>
+            <div class="anio"><span>2019</span></div>
+            <div class="imagen"><img src="images/cinesunidos.com.ve.png" alt=""></div>
+        </div>
+        <div class="contenedores1">
+            <div class="titles"><h2>Mercado Libre</h2></div>
+            <div class="herramienta"><span>Html y CSS y Javascript</span></div>
+            <div class="anio"><span>2020</span></div>
+            <div class="imagen"><img src="images/MercadoLibre-website.jpg" alt=""></div>
+        </div>
+        <div class="contenedores1">
+            <div class="titles"><h2>Amazon</h2></div>
+            <div class="herramienta"><span>Html y CSS y Javascript</span></div>
+            <div class="anio"><span>2001</span></div>
+            <div class="imagen"><img src="images/amazon.jpg" alt=""></div>
+        </div>
+    </div>
+    <div class="portfolio">
+        <span> ABOUT ME</span>
+    </div>
+    <div id="about">
+        <div class="descripcion">
+            <div class="img1"><img src="images/brad.jpg" alt=""></div>
+            <div class="nombre"><span>Gabriel Marrero</span></div>
+            <div class="obj"><span>Quiero graduarme lo antes posible</span></div>
+            <div class="obj"><span>En un futuo me veo viajando mucho</span></div>
+            <div class="obj"><span>Me motiva cumplir mis metas</span></div>
+        </div>
+    </div>
+    <div class="portfolio">
+        <span> CONTÁCTAME</span>
+    </div>
+    <div id="contacto">
+        <span>Deja tu información de contacto</span>
+        <input class="control" type="text" name="nombre" placeholder="Ingrese su nombre" id="nombre">
+        <input class="control" type="email" name="correo" placeholder="Ingrese su email" id="correo">
+        <input class="control" type="text" name="mensaje" placeholder="Ingrese su mensaje" id="mensaje">
+        <button class="boton" type="submit">Contactar</button>
     </div>
     <script src="main.js"></script>
 </body>
