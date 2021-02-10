@@ -15,9 +15,9 @@
         <div class="navbar">
             <ul class="opciones">
                 <li><a href="#about">About me</a></li>
-                <li><a href="">Contact Me</a></li>
+                <li><a href="#contacto">Contact Me</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <li><a href="">Skills</a></li>
+                <li><a href="#skill">Skills</a></li>
             </ul>
         </div>
     </div>   
@@ -60,17 +60,39 @@
             <div class="obj"><span>En un futuo me veo viajando mucho</span></div>
             <div class="obj"><span>Me motiva cumplir mis metas</span></div>
         </div>
+    </div> 
+    <div class="portfolio">
+        <span> Skills</span>
+    </div>
+    <div id="skill">
+
     </div>
     <div class="portfolio">
         <span> CONTÁCTAME</span>
     </div>
+   
     <div id="contacto">
         <span>Deja tu información de contacto</span>
+        <form action="">
         <input class="control" type="text" name="nombre" placeholder="Ingrese su nombre" id="nombre">
         <input class="control" type="email" name="correo" placeholder="Ingrese su email" id="correo">
         <input class="control" type="text" name="mensaje" placeholder="Ingrese su mensaje" id="mensaje">
-        <button class="boton" type="submit">Contactar</button>
+        <button class="boton" onclick="validarcorreo(form.correo.value)" onclick="enviarform()" type="submit">Contactar</button>
+        </form>
+        <span>Siguenos en nuestras redes</span>
+        <div class="rss">
+            <div class="botones">
+                <a href="instagram.com/" target="_blank"><img src="images/ig.png" alt=""></a>
+                <span>Instagram</span> </div>
+            <div class="botones"> 
+                <a href="https://api.whatsapp.com/send?phone=584166234706&text=info" target="_blank"><img src="images/icon-400-messenger-whatsapp-whatsgreen3x-300x300.png" alt=""></a>
+                    <span>WhatsApp</span> </div>
+            <div class="botones">
+                <a href="https://mail.google.com/" target="_blank"><img src="images/gm.jpg" alt=""></a>
+                <span>Email</span></div>
+        </div>
     </div>
+    
     <script src="main.js"></script>
 </body>
 </html>
